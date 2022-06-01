@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const cyanButton = styled.button`
+export const CyanButton = styled.button`
       font-family: "Poppins";
       border: none;
       border-radius: 50px;
@@ -11,4 +11,18 @@ const cyanButton = styled.button`
       margin-left: 12px;
       margin-top: auto;
       margin-bottom: auto;
+`
+
+export const MoreThanJustContainer = styled.div`
+margin-top: 32px;
+display: flex;
+justify-content: flex-end;
+border: 2px solid red;
+.left-container{
+      border: 2px solid red;
+}
+.right-container{
+      border: 2px solid red;
+}
+
 `

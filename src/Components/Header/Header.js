@@ -1,5 +1,5 @@
 import React from 'react'
-import cyanButton from "../../Styles"
+import { CyanButton } from "../../Styles"
 import "./Header.scss"
 import logo from "../../images/logo.svg"
 
@@ -16,7 +16,7 @@ export default function Header() {
       </nav>
       <div className="login-details">
         <p>Login</p>
-        <cyanButton>Sign Up</cyanButton>
+        <CyanButton>Sign Up</CyanButton>
       </div>
     </header>
   )
