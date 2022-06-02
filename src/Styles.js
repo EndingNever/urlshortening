@@ -98,3 +98,12 @@ export const UrlContainer = styled.div`
         }
   }
 `
+export const StatisticsContainer = styled(MoreThanJustContainer)`
+display: inline;
+text-align:center;
+.text-container{
+      p{
+            color: gray;
+      }
+}
+`
