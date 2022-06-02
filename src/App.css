@@ -2,11 +2,11 @@
 :root {
   --dark-violet: hsl(257, 27%, 26%);
   --grayish: hsl(257, 7%, 73%);
+  --very-dark-violet: hsl(255, 11%, 22%);
 }
 
 .App{
   font-family: "Poppins", sans-serif;
   margin-right: auto;
   margin-left: auto;
-
 }

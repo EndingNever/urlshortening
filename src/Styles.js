@@ -1,6 +1,8 @@
 import styled from 'styled-components'
+import bg from "../src/images/bg-shorten-desktop.svg"
 
 export const CyanButton = styled.button`
+cursor: pointer;
       font-family: "Poppins";
       border: none;
       border-radius: 50px;
@@ -14,6 +16,7 @@ export const CyanButton = styled.button`
 `
 
 export const CyanStarted = styled(CyanButton)`
+cursor: pointer;
 margin-bottom: 0px;
 margin-left: 0px;
 text-align: center;
@@ -38,8 +41,10 @@ font-family: "Poppins";
             margin-bottom: 0px;
       }
       h2{
-            color: var(--gray);
+            color: gray;
             margin-top: 0px;
+            margin-bottom: 28px;
+            width: 68%;
       }
 }
 .right-container{
@@ -59,9 +64,37 @@ export const UrlContainer = styled.div`
   margin-left: auto;
   width: 75vw;
   .input-container{
-        border: 2px solid red;
-        padding: 90px;
+        background-color: var(--very-dark-violet);
+        background-image: url(${bg});
+        background-size: cover;
+        background-position: center 10%;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        padding: 60px;
         position: relative;
         bottom: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        input{
+              font-family: "Poppins", sans-serif;
+            border-radius: 15px;
+            border: none;
+            color: gray;
+            font-size: 20px;
+              padding: 30px;
+              width: 75%;
+        }
+        .input-button{
+              font-family: "Poppins", sans-serif;
+              font-size: 24px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 15px;
+              padding: 43px;
+              width: 20%;
+            text-align: center;
+        }
   }
 `

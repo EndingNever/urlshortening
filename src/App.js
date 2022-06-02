@@ -6,9 +6,9 @@ import MoreThanJust from './Components/MoreThanJust/MoreThanJust';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <MoreThanJust/>
-      <Gray/>
+      <Header />
+      <MoreThanJust />
+      <Gray />
     </div>
   );
 }
