@@ -50,7 +50,7 @@ font-family: "Poppins";
 `
 export const GrayContainer = styled.div`
 background-color: var(--grayish);
-height: 100%;
+margin-top: 180px;
 width: 100vw;
 `
 
@@ -58,4 +58,10 @@ export const UrlContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
   width: 75vw;
+  .input-container{
+        border: 2px solid red;
+        padding: 90px;
+        position: relative;
+        bottom: 100px;
+  }
 `
