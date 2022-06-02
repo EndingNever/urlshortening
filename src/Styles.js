@@ -57,6 +57,7 @@ export const GrayContainer = styled.div`
 background-color: var(--grayish);
 margin-top: 180px;
 width: 100vw;
+max-width:100%;
 `
 
 export const UrlContainer = styled.div`
@@ -98,11 +99,23 @@ export const UrlContainer = styled.div`
         }
   }
 `
-export const StatisticsContainer = styled(MoreThanJustContainer)`
-display: inline;
+export const StatisticsContainer = styled.div`
+margin-left: auto;
+margin-right: auto;
+width:75vw;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
 text-align:center;
 .text-container{
+      h1{
+            
+      }
       p{
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
             color: gray;
       }
 }
