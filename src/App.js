@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Gray from './Components/Gray/Gray';
 import Header from './Components/Header/Header';
 import MoreThanJust from './Components/MoreThanJust/MoreThanJust';
 
@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Header/>
       <MoreThanJust/>
+      <Gray/>
     </div>
   );
 }

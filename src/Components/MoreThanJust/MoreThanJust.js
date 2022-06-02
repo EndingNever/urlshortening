@@ -1,5 +1,5 @@
 import React from 'react'
-import { MoreThanJustContainer, CyanButton, CyanStarted } from '../../Styles'
+import { MoreThanJustContainer, CyanStarted } from '../../Styles'
 import "./MoreThanJust.scss"
 import working from "../../images/working.svg"
 

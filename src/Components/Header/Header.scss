@@ -1,8 +1,11 @@
 header {
+  margin-right: auto;
+  margin-left: auto;
+  width: 75vw;
   margin-top: 24px;
   display: flex;
   justify-content: space-between;
-  color: var(--gray);
+  color: gray;
   nav {
     display: flex;
     align-items: center;

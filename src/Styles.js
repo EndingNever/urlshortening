@@ -23,6 +23,9 @@ width: 175px;
 `
 
 export const MoreThanJustContainer = styled.div`
+margin-right: auto;
+margin-left: auto;
+width: 75vw;
 margin-top: 32px;
 display: flex;
 justify-content: flex-end;
@@ -44,5 +47,15 @@ font-family: "Poppins";
       justify-content: flex-end;
       width: 50%;
 }
+`
+export const GrayContainer = styled.div`
+background-color: var(--grayish);
+height: 100%;
+width: 100vw;
+`
 
+export const UrlContainer = styled.div`
+  margin-right: auto;
+  margin-left: auto;
+  width: 75vw;
 `
